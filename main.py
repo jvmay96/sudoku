@@ -185,7 +185,6 @@ def main():
     new_board_button = Button(text="new board", command=lambda: generate_random_board(game, board, sparsity))
     solve_button.grid(row=1, column=1, sticky="s")
     new_board_button.grid(row=2, column=1, sticky="n")
-    board.update()
     root.mainloop()
 
 
